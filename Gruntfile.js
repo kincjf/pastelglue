@@ -15,6 +15,8 @@ module.exports = function (grunt) {
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
 
+  grunt.loadNpmTasks('grunt-bower-install');  
+
   // Define the configuration for all the tasks
   grunt.initConfig({
 
@@ -197,9 +199,10 @@ module.exports = function (grunt) {
       app: {
         html: '<%= yeoman.app %>/views/index.html',
         ignorePath: '<%= yeoman.app %>/',
-        exclude: ['bootstrap-sass']
+        exclude: ['bootstrap-sass'],
+		src: ['app/views/**/*.html']
       }
-    },
+	},
 
     // Compiles Sass to CSS and generates necessary files if requested
     compass: {
@@ -482,7 +485,7 @@ module.exports = function (grunt) {
       'concurrent:server',
       'autoprefixer',
       'express:dev',
-      'open',
+      //'open',			// open in firefox browser
       'watch'
     ]);
   });

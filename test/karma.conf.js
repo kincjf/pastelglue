@@ -1,7 +1,7 @@
 // Karma configuration
 // http://karma-runner.github.io/0.12/config/configuration-file.html
 // Generated on 2014-06-05 using
-// generator-karma 0.8.1
+// generator-karma 0.8.2
 
 module.exports = function(config) {
   config.set({
@@ -43,7 +43,7 @@ module.exports = function(config) {
 
     // Continuous Integration mode
     // if true, it capture browsers, run tests and exit
-    singleRun: false
+    singleRun: false,
 
     colors: true,
 
