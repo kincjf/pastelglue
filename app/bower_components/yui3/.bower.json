@@ -1,0 +1,19 @@
+{
+  "name": "yui",
+  "version": "3.17.2",
+  "main": "build/yui/yui.js",
+  "devDependencies": {
+    "pure": "0.4.2"
+  },
+  "homepage": "https://github.com/yui/yui3",
+  "_release": "3.17.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.17.2",
+    "commit": "9c3c78e6550f764574c0d2d6e28984d653924701"
+  },
+  "_source": "git://github.com/yui/yui3.git",
+  "_target": "~3.17.2",
+  "_originalSource": "yui3",
+  "_direct": true
+}

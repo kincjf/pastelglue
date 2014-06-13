@@ -1,0 +1,2 @@
+bower requirejs-plugins#*       cached git://github.com/millermedeiros/requirejs-plugins.git#1.0.2
+bower requirejs-plugins#*     validate 1.0.2 against git://github.com/millermedeiros/requirejs-plugins.git#*

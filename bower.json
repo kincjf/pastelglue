@@ -10,11 +10,17 @@
     "angular-resource": ">=1.2.*",
     "angular-cookies": ">=1.2.*",
     "angular-sanitize": ">=1.2.*",
-    "angular-route": ">=1.2.*"
+    "angular-route": ">=1.2.*",
+    "yui3": "~3.17.2",
+    "requirejs-domready": "~2.0.1",
+    "requirejs": "~2.1.14",
+    "requirejs-plugins": "~1.0.2",
+    "text": "~2.0.12",
+    "async": "~0.9.0"
   },
   "devDependencies": {
     "angular-mocks": ">=1.2.*",
     "angular-scenario": ">=1.2.*"
   },
-  "testPath": "test/client/spec"  
+  "testPath": "test/client/spec"
 }
